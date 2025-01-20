@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE ART</title>
+    <title>THE ART Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,9 +14,9 @@
         </div>
     </header>
 
-    <section class="Art">
+    <section class="gallery">
         <div class="container">
-            <h2>The Magic</h2>
+            <h2>Gallery</h2>
             <div class="grid">
                 <div class="grid-item"><img src="images/photo1.jpg" alt="Art 1"></div>
                 <div class="grid-item"><img src="images/photo2.jpg" alt="Art 2"></div>
@@ -28,8 +28,26 @@
             </div>
         </div>
     </section>
+
+    <section class="slider">
+        <div class="container">
+            <h2>Featured Portraits</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active"><img src="images/portrait1.jpg" alt="Portrait 1"></div>
+                    <div class="slide"><img src="images/portrait2.jpg" alt="Portrait 2"></div>
+                    <div class="slide"><img src="images/portrait3.jpg" alt="Portrait 3"></div>
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 THE ART. All rights reserved.</p>
+        <p>&copy; 2023 THE ART. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
