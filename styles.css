@@ -20,6 +20,7 @@ header {
 .rainbow-text {
     font-size: 4em;
     background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #00ffff, #0000ff, #4b0082, #9400d3);
+    background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 5s linear infinite;
